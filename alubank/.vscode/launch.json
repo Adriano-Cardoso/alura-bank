@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "alubank",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"  // ID do dispositivo do emulador
+        },
+        {
+            "name": "alubank (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "deviceId": "emulator-5554"  // ID do dispositivo do emulador
+        },
+        {
+            "name": "alubank (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "deviceId": "emulator-5554"  // ID do dispositivo do emulador
+        }
+    ]
+}
